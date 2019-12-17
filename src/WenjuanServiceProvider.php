@@ -21,6 +21,8 @@ class WenjuanServiceProvider extends \Illuminate\Support\ServiceProvider
             $config = config('wenjuan');
             return new WenJuanClient($config);
         });
+
+        $this->app->alias('wenjuan', WenJuanClient::class);
     }
 
     /**

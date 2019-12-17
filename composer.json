@@ -34,7 +34,10 @@
         "laravel": {
             "providers": [
                 "Jake\\LaravelWenjuan\\WenjuanServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Wenjuan": "Jake\\LaravelWenjuan\\Facade"
+            }
         }
     }
 }
