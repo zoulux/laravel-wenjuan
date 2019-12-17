@@ -1,0 +1,40 @@
+{
+    "name": "jake/laravel-wenjuan",
+    "description": "wenjuanlib for laravel",
+    "keywords": [
+        "wenjuan",
+        "wenjuanwang",
+        "问卷",
+        "sdk"
+    ],
+    "version": "0.1",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jake zou",
+            "email": "zoulux@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "jake/wenjuan": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jake\\LaravelWenjuan\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jake\\LaravelWenjuan\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jake\\LaravelWenjuan\\WenjuanServiceProvider"
+            ]
+        }
+    }
+}
