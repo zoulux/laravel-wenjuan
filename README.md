@@ -1,6 +1,8 @@
 # laravel-wenjuan
 
-laravel 版本的问卷网 sdk，基于 [jake/wenjuan](https://github.com/zoulux/wenjuan)
+laravel 版本的[问卷网](https://www.wenjuan.com) sdk，基于 [jake/wenjuan](https://github.com/zoulux/wenjuan)
+
+laravel 可便捷访问 wenjuanwang 
 
 ## 框架要求
 - Laravel/Lumen >= 5.1
